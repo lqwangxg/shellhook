@@ -3,9 +3,7 @@ module.exports = function(app){
   
   var shell = require('shelljs');
  
-
   app.get('/', function(req, res) {
-    res.send('This is a webhook sample for shell driver.');
     res.sendStatus( 200 );
   })
 
